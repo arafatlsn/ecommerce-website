@@ -131,6 +131,7 @@ const eachData = products => {
 
 		// CLEAR PREVIOUS HTML 
 		carouselInnerItems.innerHTML = '';
+		displayProductsDiv.innerHTML = '';
 
 
 		console.log(typeof(products))
@@ -216,6 +217,32 @@ const eachData = products => {
 				
 			}
 
+			// DISPLAY ITEMS AREA 
+			// DISPLAY ITEMS AREA 
+			const displayProductsDiv = document.getElementById('displayProductsDiv');
+
+			// console.log(product)
+			if(product.category === `jewelery`){
+				const makeMensClotingColumn = document.createElement('div');
+				makeMensClotingColumn.innerHTML = `
+				<div class="card" style="width: 18rem; height: 412px">
+				<img src=${product.image} class="card-img-top" alt="..."
+				style="
+				width: 200px;
+				height: 300px;
+				object-fit: cover;
+				margin: auto">
+				<div class="card-body">
+					<h6 class="card-text fs-5">${product.title}</h6>
+					<h6 class="card-text fs-5"><span>$</span>${product.price}</h6>
+				</div>
+			</div>
+				`;
+
+				displayProductsDiv.appendChild(makeMensClotingColumn)
+
+			}
+
 		})
 	});
 
@@ -230,6 +257,7 @@ const eachData = products => {
 
 		// CLEAR PREVIOUS HTML 
 		carouselInnerItems.innerHTML = '';
+		displayProductsDiv.innerHTML = '';
 
 		// console.log(products)
 		const eachProducts = products.forEach(product => {
@@ -312,6 +340,33 @@ const eachData = products => {
 				carouselInnerItems.appendChild(forThirdItem);
 				
 			}
+
+			// DISPLAY ITEMS AREA 
+			// DISPLAY ITEMS AREA 
+			const displayProductsDiv = document.getElementById('displayProductsDiv');
+
+			// console.log(product)
+			if(product.category === `electronics`){
+				const makeMensClotingColumn = document.createElement('div');
+				makeMensClotingColumn.innerHTML = `
+				<div class="card" style="width: 18rem; height: 412px">
+				<img src=${product.image} class="card-img-top" alt="..."
+				style="
+				width: 200px;
+				height: 300px;
+				object-fit: cover;
+				margin: auto">
+				<div class="card-body">
+					<h6 class="card-text fs-5">${product.title}</h6>
+					<h6 class="card-text fs-5"><span>$</span>${product.price}</h6>
+				</div>
+			</div>
+				`;
+
+				displayProductsDiv.appendChild(makeMensClotingColumn)
+
+			}
+
 		})
 		});
 
@@ -329,6 +384,7 @@ const eachData = products => {
 
 			// CLEAR PREVIOUS HTML 
 			carouselInnerItems.innerHTML = '';
+			displayProductsDiv.innerHTML = '';
 
 			const eachProducts = products.forEach(product => {
 				// console.log(product)
@@ -410,6 +466,32 @@ const eachData = products => {
 					carouselInnerItems.appendChild(forThirdItem);
 					
 				}
+
+							// DISPLAY ITEMS AREA 
+			// DISPLAY ITEMS AREA 
+			const displayProductsDiv = document.getElementById('displayProductsDiv');
+
+			// console.log(product)
+			if(product.category === `women's clothing`){
+				const makeMensClotingColumn = document.createElement('div');
+				makeMensClotingColumn.innerHTML = `
+				<div class="card" style="width: 18rem; height: 412px">
+				<img src=${product.image} class="card-img-top" alt="..."
+				style="
+				width: 200px;
+				height: 300px;
+				object-fit: cover;
+				margin: auto">
+				<div class="card-body">
+					<h6 class="card-text fs-5">${product.title}</h6>
+					<h6 class="card-text fs-5"><span>$</span>${product.price}</h6>
+				</div>
+			</div>
+				`;
+
+				displayProductsDiv.appendChild(makeMensClotingColumn)
+
+			}
 
 			})
 		})
