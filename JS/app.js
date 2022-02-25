@@ -23,6 +23,7 @@ const eachData = products => {
 
 		// CLEAR PREVIOUS CAROUSEL HTML 
 		carouselInnerItems.innerHTML = '';
+		displayProductsDiv.innerHTML = '';
 
 		// console.log('hello world')
 		const productEach = products.forEach(product => {
