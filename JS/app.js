@@ -26,7 +26,7 @@ const eachData = products => {
 
 		// console.log('hello world')
 		const productEach = products.forEach(product => {
-			console.log(product)
+			// console.log(product)
 			// console.log(product.category)
 			if(product.category == `men's clothing` && product.id === 2){
 				console.log(product)
@@ -92,6 +92,32 @@ const eachData = products => {
 				`;
 				// console.log(forThirdItem)
 				carouselInnerItems.appendChild(forThirdItem);
+			}
+
+			// DISPLAY ITEMS AREA 
+			// DISPLAY ITEMS AREA 
+			const displayProductsDiv = document.getElementById('displayProductsDiv');
+
+			// console.log(product)
+			if(product.category === `men's clothing`){
+				const makeMensClotingColumn = document.createElement('div');
+				makeMensClotingColumn.innerHTML = `
+				<div class="card" style="width: 18rem; height: 412px">
+				<img src=${product.image} class="card-img-top" alt="..."
+				style="
+				width: 200px;
+				height: 300px;
+				object-fit: cover;
+				margin: auto">
+				<div class="card-body">
+					<h6 class="card-text fs-5">${product.title}</h6>
+					<h6 class="card-text fs-5"><span>$</span>${product.price}</h6>
+				</div>
+			</div>
+				`;
+
+				displayProductsDiv.appendChild(makeMensClotingColumn)
+
 			}
 
 		})
