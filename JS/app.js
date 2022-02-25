@@ -44,7 +44,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -66,7 +71,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -87,7 +97,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -111,7 +126,7 @@ const eachData = products => {
 				object-fit: cover;
 				margin: auto">
 				<div class="card-body">
-					<h6 class="card-text fs-5">${product.title}</h6>
+					<h6 class="card-text fs-5">${product.title.slice(0, 40)}</h6>
 					<h6 class="card-text fs-5"><span>$</span>${product.price}</h6>
 				</div>
 			</div>
@@ -160,7 +175,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -184,7 +204,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -208,7 +233,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -233,7 +263,7 @@ const eachData = products => {
 				object-fit: cover;
 				margin: auto">
 				<div class="card-body">
-					<h6 class="card-text fs-5">${product.title}</h6>
+					<h6 class="card-text fs-5">${product.title.slice(0, 40)}</h6>
 					<h6 class="card-text fs-5"><span>$</span>${product.price}</h6>
 				</div>
 			</div>
@@ -284,7 +314,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -308,7 +343,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -332,7 +372,12 @@ const eachData = products => {
 								<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 						</div>
 						<div>
-								<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+								<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+								width: 300px;
+								height: 440px;
+								object-fit: cover;
+								margin: auto"
+								">
 						</div>
 				</div>
 				`;
@@ -357,7 +402,7 @@ const eachData = products => {
 				object-fit: cover;
 				margin: auto">
 				<div class="card-body">
-					<h6 class="card-text fs-5">${product.title}</h6>
+					<h6 class="card-text fs-5">${product.title.slice(0, 40)}</h6>
 					<h6 class="card-text fs-5"><span>$</span>${product.price}</h6>
 				</div>
 			</div>
@@ -410,7 +455,12 @@ const eachData = products => {
 									<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 							</div>
 							<div>
-									<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+									<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+									width: 300px;
+									height: 440px;
+									object-fit: cover;
+									margin: auto"
+									">
 							</div>
 					</div>
 					`;
@@ -434,7 +484,12 @@ const eachData = products => {
 									<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 							</div>
 							<div>
-									<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+									<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+									width: 300px;
+									height: 440px;
+									object-fit: cover;
+									margin: auto"
+									">
 							</div>
 					</div>
 					`;
@@ -458,7 +513,12 @@ const eachData = products => {
 									<button class="bg-warning px-2 py-1 text-dark fw-bolder">SHOP NOW</button>
 							</div>
 							<div>
-									<img id="carouselImgOne" width="300px" src=${product.image} alt="...">
+									<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
+									width: 300px;
+									height: 440px;
+									object-fit: cover;
+									margin: auto"
+									">
 							</div>
 					</div>
 					`;
@@ -467,7 +527,7 @@ const eachData = products => {
 					
 				}
 
-							// DISPLAY ITEMS AREA 
+			// DISPLAY ITEMS AREA 
 			// DISPLAY ITEMS AREA 
 			const displayProductsDiv = document.getElementById('displayProductsDiv');
 
@@ -483,7 +543,7 @@ const eachData = products => {
 				object-fit: cover;
 				margin: auto">
 				<div class="card-body">
-					<h6 class="card-text fs-5">${product.title}</h6>
+					<h6 class="card-text fs-5">${product.title.slice(0, 40)}</h6>
 					<h6 class="card-text fs-5"><span>$</span>${product.price}</h6>
 				</div>
 			</div>
