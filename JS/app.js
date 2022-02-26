@@ -120,7 +120,7 @@ const eachData = products => {
 				style="
 				width: 200px;
 				height: 300px;
-				object-fit: cover;
+				object-fit: contain;
 				margin: auto">
 				<div class="card-body">
 					<h6 class="card-text fs-5">${product.title.slice(0, 40)}</h6>
@@ -202,7 +202,7 @@ const eachData = products => {
 						<div>
 								<img id="carouselImgOne" src=${product.image} alt="..." style="
 								width: 300px;
-								height: 440px;
+								height: 440px
 								object-fit: cover;
 								margin: auto";
 								">
@@ -255,7 +255,7 @@ const eachData = products => {
 				style="
 				width: 200px;
 				height: 300px;
-				object-fit: cover;
+				object-fit: contain;
 				margin: auto">
 				<div class="card-body">
 					<h6 class="card-text fs-5">${product.title.slice(0, 40)}</h6>
@@ -393,7 +393,7 @@ const eachData = products => {
 				style="
 				width: 200px;
 				height: 300px;
-				object-fit: cover;
+				object-fit: contain;
 				margin: auto">
 				<div class="card-body">
 					<h6 class="card-text fs-5">${product.title.slice(0, 40)}</h6>
@@ -452,7 +452,7 @@ const eachData = products => {
 									<img id="carouselImgOne" width="300px" src=${product.image} alt="..." style="
 									width: 300px;
 									height: 440px;
-									object-fit: cover;
+									object-fit: contain;
 									margin: auto"
 									">
 							</div>
